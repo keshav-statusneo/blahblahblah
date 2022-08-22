@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "blahblahblah"
+  description: "for learning purpose"  
+  annotations:
+    github.com/project-slug: keshav-statusneo/blahblahblah
+spec:
+  type: service
+  owner: "guests"
+  lifecycle: experimental
